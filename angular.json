@@ -88,9 +88,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "userauthfrontend"
+    }
+  },
+  "defaultProject": "userauthfrontend",
+  "cli": {
+    "analytics": "57586a26-f028-4e67-ae4b-621731874d36"
+  }
 }
